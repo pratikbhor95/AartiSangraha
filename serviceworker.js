@@ -1,5 +1,5 @@
 const cacheName = "MyCache_1";
-const precachedResources = ["/", "/index.html", "/EnglishVersion.html"];
+const precachedResources = ["./", "./index.html", "./EnglishVersion.html"];
 
 async function precache() {
   const cache = await caches.open(cacheName);
